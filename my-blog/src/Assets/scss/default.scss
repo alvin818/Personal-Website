@@ -1,0 +1,60 @@
+header {
+  padding-left: 75px;
+  font-family: 'Open Sans', sans-serif;
+  .logo {
+      font-size: 75px;
+      padding-top: 75px;
+  }
+  nav {
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding:0;
+          overflow: hidden;
+          //background-color: #333;
+          li {
+              float: left;
+              padding-right: 40px;
+              font-size: 20px;
+              
+
+              Link {
+                  display: block;
+                  text-align: center;
+                  text-decoration: none;
+              }
+             
+          }
+         
+      }
+  }
+
+}
+
+.Container {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 75px;
+    
+}
+
+#download {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ContainerContact {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    padding-left: 60px;
+    .zmdi {
+        font-size: 100px;
+        padding-left: 45px;
+    }
+    .social-text {
+        font-size: 20px;
+    }
+}
+
