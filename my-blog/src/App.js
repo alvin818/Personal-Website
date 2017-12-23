@@ -20,11 +20,11 @@ class App extends Component {
       <Router>
       <div className="App">
         <Header />
-          <Route exact path='/' component={Home} />
-          <Route exact path='/About' component={About} />
-          <Route exact path='/Resume' component={Resume} />
-          <Route exact path='/Contact' component={Contact} />
-          <Route exact path='/HolisticProject' component={HolisticProject} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + '/About'} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/Resume'}component={Resume} />
+          <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + '/HolisticProject'} component={HolisticProject} />
       </div>
       </Router>
     );
