@@ -21,7 +21,7 @@ class App extends Component {
       <HashRouter>
       <div className="App">
         <Header />
-          <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+          <Route exact path='/' component={Home} />
           <Route exact path='/About' component={About} />
           <Route exact path="/Resume" component={Resume} />
           <Route exact path="/Contact" component={Contact} />
