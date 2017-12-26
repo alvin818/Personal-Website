@@ -50,11 +50,19 @@ header {
     float: left;
     padding-left: 60px;
     .zmdi {
-        font-size: 100px;
-        padding-left: 45px;
+        font-size: 100px;    
     }
     .social-text {
         font-size: 20px;
     }
 }
 
+.linkContainer {
+    text-align:center;
+    .zmdi {
+        margin:auto;
+    }
+    .social-text {
+        margin:auto;
+    }
+}

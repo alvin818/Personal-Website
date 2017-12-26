@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 import holistic from './Pictures/holistic.png';
 // React grid system
 import {
-    Container,
     Row,
     Col
 } from 'react-grid-system';
 
 // For "card" elements for projects
 import {
-    Thumbnail,
-    Button
+    Thumbnail
 } from 'react-bootstrap';
 
 // For linking projects
